@@ -33,7 +33,7 @@ int countScore(string word)
 
     for (int i = 0; i < strlen(word); i++)
     {
-        if (islower(word[i]) || (word[i] >= 'a' && word[i] <= 'z'))
+        if (word[i] >= 'a' && word[i] <= 'z')
         {
             score = score + points[word[i] - 'a'];
 
@@ -41,7 +41,7 @@ int countScore(string word)
             printf("%i ", word[i] - 'a');
             printf("%i\n", points[word[i] - 'a']);
         }
-        else if (isupper(word[i]) || (word[i] >= 'A' && word[i] <= 'Z'))
+        else if (word[i] >= 'A' && word[i] <= 'Z')
         {
             score = score + points[word[i] - 'A'];
 
