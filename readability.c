@@ -43,7 +43,7 @@ int main(void)
     {
         printf("Grade %d\n", (int) round(index));
     }
-    else if (round(index) >= 16)
+    else 
     {
         printf("Grade 16+\n");
     }
