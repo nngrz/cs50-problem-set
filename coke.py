@@ -12,3 +12,4 @@ while due > 0:
             print("Change Owed:", abs(due))
     else:
         print("Amount Due:", due)
+
