@@ -24,17 +24,11 @@ def is_valid(s):
 
 #  start with at least two letters
 def is_first_two_letter(s):
-    if s[0:2].isalpha():
-        return True
-    else:
-        return False
+    return s[0:2].isalpha()
 
 # 2 <= length <= 6
 def is_length(s):
-    if 2 <= len(s) <= 6:
-        return True
-    else:
-        return False
+    return 2 <= len(s) <= 6
 
 # number must come at the end
 def is_middle_letter(s):
