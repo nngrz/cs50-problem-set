@@ -11,10 +11,7 @@ def main():
     print("Output:", output)
 
 def is_vowel(c):
-    if c in vowels:
-        return True
-    else:
-        return False
+    return c in vowels
 
 main()
 

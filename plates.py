@@ -13,14 +13,11 @@ def is_valid(s):
     # print("is_middle_letter", is_middle_letter(s))
     # print("is_first_number", is_first_number(s))
     # print("is_punctuation", is_punctuation(s))
-    if  (is_first_two_letter(s) and
+    return  (is_first_two_letter(s) and
         is_length(s) and
         is_middle_letter(s) and 
         is_first_number(s) and
-        is_punctuation(s)):
-        return True
-    else:
-        return False
+        is_punctuation(s))
 
 #  start with at least two letters
 def is_first_two_letter(s):
