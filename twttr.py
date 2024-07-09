@@ -18,7 +18,6 @@ def is_vowel(c):
 
 main()
 
-
 '''
 solution 1: without for loop
 # get user input
