@@ -5,6 +5,9 @@ while True:
         x = int(x)
         y = int(y)
 
+        if x > y or y == 0:
+            raise ValueError
+            
         percentage = round((x / y) * 100)
         if percentage <= 1:
             print("E")
@@ -12,9 +15,6 @@ while True:
             print("F")
         else:
             print(f"{percentage}%")
-
-        if x > y or y == 0:
-            raise ValueError
         
         break
 
