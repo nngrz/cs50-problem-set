@@ -19,8 +19,8 @@ while True:
         if item in menu:
             total += menu[item]
             print(f"Total: ${total:.2f}")
-        # else:
-            # raise KeyError
+        else:
+            raise KeyError
 
     except EOFError:
         print("\n")
