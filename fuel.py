@@ -7,7 +7,7 @@ while True:
 
         if x > y or y == 0:
             raise ValueError
-            
+
         percentage = round((x / y) * 100)
         if percentage <= 1:
             print("E")
@@ -18,6 +18,5 @@ while True:
         
         break
 
-    except(ValueError, ZeroDivisionError):
+    except(ValueError):
         pass
-
