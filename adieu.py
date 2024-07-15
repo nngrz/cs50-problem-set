@@ -15,5 +15,8 @@ while True:
         print("\n")
         break
 
+# join words into a list
+# for example: mylist = join(("apple", "banana", "carrot"))
+       # "apple, banana, and carrot"
 mylist = p.join(list)
 print("Adieu, adieu, to", mylist)
