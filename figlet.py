@@ -2,6 +2,7 @@ import sys
 import random
 from pyfiglet import Figlet
 
+# we use Figlet to change the font 
 figlet = Figlet()
 # if zero argument
 if len(sys.argv) == 1:
