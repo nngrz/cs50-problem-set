@@ -1,5 +1,7 @@
 import inflect
 
+# we use inflect library to format the list by adding commas between words and "and" in the end
+# for example: ["apple", "banana", "carrot"] -> "apple, banana, and carrot"
 p = inflect.engine()
 
 # creating an empty list
@@ -16,7 +18,5 @@ while True:
         break
 
 # join words into a list
-# for example: mylist = join(("apple", "banana", "carrot"))
-       # "apple, banana, and carrot"
 mylist = p.join(list)
 print("Adieu, adieu, to", mylist)
