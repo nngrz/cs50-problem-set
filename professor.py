@@ -12,7 +12,7 @@ def main():
         result = x + y
 
         input_times = 0
-        # allow user up tp 3 times tries in total
+        # allow user up to 3 times tries in total
         while input_times < 3:
             try:
                 user_result = int(input(f"{x} + {y} = "))
